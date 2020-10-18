@@ -141,7 +141,7 @@ as an example, you can run ZetaHunter with just the following file:
 using the following code:   
 
 ```
-rvmsudo ruby zeta_hunter.rb -i aligned.fasta -o ~/ZetaHunter/zetaoutput --no-check-chimeras -r ~/ZetaHunter/bin/linux/mothur -s ~/ZetaHunter/bin/linux/sortmerna -n ~/ZetaHunter/bin/linux/indexdb_rna
+sudorvm ruby zeta_hunter.rb -i aligned.fasta -o ~/ZetaHunter/zetaoutput --no-check-chimeras -r ~/ZetaHunter/bin/linux/mothur -s ~/ZetaHunter/bin/linux/sortmerna -n ~/ZetaHunter/bin/linux/indexdb_rna
 ```
 *NOTE that I skipped the chimera checking step since mothur keeps on getting errors*
 
