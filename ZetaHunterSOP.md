@@ -105,10 +105,10 @@ ls -l
 ```
 $ bundle install
 ```
-**Step 14** Try running ZetaHunter. You can also use sudorvm for superuser permissions. The latter might help as ZetaHunter uses /tmp folders
+**Step 14** Try running ZetaHunter. You can also use rvmsudo for superuser permissions. The latter might help as ZetaHunter uses /tmp folders
 ```
 $ ruby zeta_hunter.rb -h
-$ sudorvm ruby zeta_hunter.rb -h
+$ rvmsudo ruby zeta_hunter.rb -h
 ```
 **Step 15** In  using ZetaHunter, here are the command line options:
 ```
@@ -141,7 +141,7 @@ as an example, you can run ZetaHunter with just the following file:
 using the following code:   
 
 ```
-sudorvm ruby zeta_hunter.rb -i aligned.fasta -o ~/ZetaHunter/zetaoutput --no-check-chimeras -r ~/ZetaHunter/bin/linux/mothur -s ~/ZetaHunter/bin/linux/sortmerna -n ~/ZetaHunter/bin/linux/indexdb_rna
+rvmsudo ruby zeta_hunter.rb -i aligned.fasta -o ~/ZetaHunter/zetaoutput --no-check-chimeras -r ~/ZetaHunter/bin/linux/mothur -s ~/ZetaHunter/bin/linux/sortmerna -n ~/ZetaHunter/bin/linux/indexdb_rna
 ```
 *NOTE that I skipped the chimera checking step since mothur keeps on getting errors*
 
