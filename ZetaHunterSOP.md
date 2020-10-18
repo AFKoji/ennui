@@ -132,7 +132,7 @@ $ sudorvm ruby zeta_hunter.rb -h
 ```
 >**NOTE:** one of the inputs required by ZetaHunter are SINA aligned sequences  
 >Check this tutorial for installing and running the SINA alignment tool:  
->insert github link here
+>https://github.com/AFKoji/ennui/blob/main/SINASOP.md
 
 as an example, you can run ZetaHunter with just the following file:
 
